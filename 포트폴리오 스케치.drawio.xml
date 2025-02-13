@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram id="wFE0QG_FPsp0jaGvCLVb" name="인프라 구성">
+    <mxGraphModel dx="808" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="540" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teAbE5iXrSR5eMhYGDFv-3" target="teAbE5iXrSR5eMhYGDFv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-3" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_modular;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="465" y="290" width="50" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-8" value="Master&lt;div&gt;(192.168.0.100)&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="teAbE5iXrSR5eMhYGDFv-9" target="teAbE5iXrSR5eMhYGDFv-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="530" />
+              <mxPoint x="490" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="teAbE5iXrSR5eMhYGDFv-9" target="teAbE5iXrSR5eMhYGDFv-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="490" />
+              <mxPoint x="305" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="teAbE5iXrSR5eMhYGDFv-9" target="teAbE5iXrSR5eMhYGDFv-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="490" />
+              <mxPoint x="675" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_switch;" vertex="1" parent="1">
+          <mxGeometry x="461.7" y="398.95" width="56.6" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-12" value="Worker1&lt;div&gt;(192.168.0.101)&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="465" y="550" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-13" value="Worker2&lt;div&gt;(192.168.0.102)&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="650" y="550" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#6c8ebf;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.physical_storage;" vertex="1" parent="1">
+          <mxGeometry x="224.44" y="398.95" width="31.13" height="22.1" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-20" value="&lt;b&gt;Host Machine&lt;/b&gt;&lt;div&gt;(192.168.0.2)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="395" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-21" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;iptime&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(192.168.0.1)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- NAT, DHCP 기능이 탑재된 L3 라우터 역할&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- 도메인 접근의 진입점&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-22" value="&lt;b&gt;VM Bridged Network&lt;/b&gt;&lt;div&gt;- L2 스위치 역할&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="400" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-25" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon47;" vertex="1" parent="1">
+          <mxGeometry x="465" y="210" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="teAbE5iXrSR5eMhYGDFv-25" target="teAbE5iXrSR5eMhYGDFv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teAbE5iXrSR5eMhYGDFv-27" value="가비아를 통해 DNS 구성&lt;div&gt;개발: &lt;b&gt;dev.wooks-space.me&lt;/b&gt;&lt;/div&gt;&lt;div&gt;운영: &lt;b&gt;(www).wooks-space.me&lt;/b&gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="185" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
